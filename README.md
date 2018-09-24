@@ -3,11 +3,16 @@
 ImageEditor make your image editting easy through python, opencv.
 
 # Usage
-At first, we must make directories for images.
-Run this command 
+At first, put the images you want to execute to "images/input"
+
+You need to select mode by command argument when you use this program like this.
 
 ```
-$ python first_setting.py
+$ python image_editor.py to_gray
 ```
 
-## to_gray.py
+There are images after program execution in "images/output" directory.
+
+# Modes you can choose
+## to_gray
+Convert color images to gray images
